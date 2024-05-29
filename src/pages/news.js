@@ -12,9 +12,9 @@ const News = () => {
                 ))}
             </div>
             {/* NewsLetter */}
-            <div style={{backgroundColor:'white', height:'250px'}}>
+            {/* <div style={{backgroundColor:'white', height:'250px'}}>
 
-            </div>
+            </div> */}
         </>
     )
 }

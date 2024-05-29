@@ -10,7 +10,7 @@ const Home = () => {
             <div className='intro-container'>
                 <div className='overlay' onClick={() => { navigate('/video') }}>
                 </div>
-                <img onClick={() => { navigate('/video') }} className='home-cv-image' src={process.env.PUBLIC_URL + '/coverPhoto.jpeg'} alt="logo" />
+                <img onClick={() => { navigate('/video') }} className='home-cv-image' src={process.env.PUBLIC_URL + '/coverPhoto.JPEG'} alt="logo" />
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', marginBottom: '40px' }}>
                 <div className='large-text' style={{ alignSelf: 'center', textAlign: 'center', width: '80%' }}>Empowering Individuals to Leverage their NIL Capabilities Beyond Financial Gains</div>
