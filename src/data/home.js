@@ -25,7 +25,7 @@ export const pillars = [
 ];
 
 export const satisfaction = [
-    {title:'NIL ATHLETES',stat:'8+'},
+    {title:'NIL ATHLETES',stat:'8'},
     {title:'INFLUENCERS',stat:'3'},
     {title:'TOTAL FOLLOWERS REACH',stat:'600K+'},
     {title:'GENERATED IN BRAND DEALS',stat:'$100K+'}
@@ -39,7 +39,7 @@ export const testimionials = [
         title:'Multimedia Journalist & Content Creator'
     },
     {
-        image: process.env.PUBLIC_URL + '/testimonials/anniebeard.jpg',
+        image: process.env.PUBLIC_URL + '/testimonials/anniebeard.JPEG',
         quote:`"Collaborating with my agent Juan and Go Time LLC has been instrumental in my collegiate journey, and I'm deeply thankful for their invaluable support during this pivotal and celebratory moment in my career."`,
         name:'Annie Beard',
         title:'LSU Gymnast'
