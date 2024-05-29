@@ -28,7 +28,7 @@ const Contact = () => {
         };
     
         emailjs.send(
-          'service_vttbffr', // replace with your EmailJS service ID
+          'service_vilqgdd', // replace with your EmailJS service ID
           'template_4xjc1bu', // replace with your EmailJS template ID
           templateParams,
           'qYrNC_pAsxxp9ahjc' // replace with your EmailJS user ID
