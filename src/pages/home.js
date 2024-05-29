@@ -9,7 +9,6 @@ const Home = () => {
         <>
             <div className='intro-container'>
                 <div className='overlay' onClick={() => { navigate('/video') }}>
-                    <span className='click-text'>CLICK ME</span>
                 </div>
                 <img onClick={() => { navigate('/video') }} className='home-cv-image' src={process.env.PUBLIC_URL + '/coverPhoto.jpeg'} alt="logo" />
             </div>

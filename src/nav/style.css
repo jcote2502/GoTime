@@ -8,8 +8,6 @@
     flex-direction: row;
     color:white;
     height: 125px;
-    /* justify-content: space-around;
-    align-items: center; */
     z-index: 999;
 }
 .nav-logo{
@@ -28,6 +26,7 @@
     align-items: center;
     width: 700px;
     height: 125px;
+    margin-right: 175px;
 }
 .nav-item{
     font-size: 24px;
