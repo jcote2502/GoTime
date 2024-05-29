@@ -35,7 +35,7 @@ export const testimionials = [
     {
         image: `${process.env.PUBLIC_URL}/llana.jpeg`,
         quote:'"After only 4 months of knowing Juan Faura, I have become extremely confident in both myself and my content and determined more then ever to succeed."',
-        name:'Illana Epstein',
+        name:'Ilana Epstein',
         title:'Multimedia Journalist & Content Creator'
     },
     {

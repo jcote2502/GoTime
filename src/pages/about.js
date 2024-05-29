@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className='company-container'>
                 <div className='company-title'>
-                    Be Transformational NOT Transactional
+                    Be Transformational Not Transactional
                 </div>
                 <div className='simple-row'>
                     <div className='desc-container'>
