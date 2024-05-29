@@ -15,8 +15,13 @@ export const team = [
         image:process.env.PUBLIC_URL + '/company/brookedougherty.jpg'
     },
     {
-        name:'Jeremey Reiss',
+        name:'Jeremy Reiss',
         title:'Talent Coordinator',
         image:process.env.PUBLIC_URL + '/company/jeremyreiss.jpg'
-    }
+    },
+    {
+        name:'Luca Daprano',
+        title:'Operations Coordinator',
+        image:process.env.PUBLIC_URL + '/company/luca.jpg'
+    },
 ]

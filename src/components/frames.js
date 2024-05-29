@@ -77,9 +77,11 @@ export const BrandHero = (props) => {
 
 export const ServiceHero = (props) => {
     const {service} = props;
-    console.log(service)
+    const GoTo = () => {
+        window.open(service.link, '_blank');
+    }
     return (
-        <div className='srvc-container'>
+        <div onClick={GoTo} className='srvc-container'>
             <img className='srvc-img' src={service.image} alt='service'/>
             <div className='srvc-text-col'>
                 <div style={{fontSize:'32px'}} className='srvc-text'>{service.title}</div>
@@ -93,7 +95,6 @@ export const NewsHero = (props) =>{
     const {article} = props;
 
     const GoTo = () => {
-        console.log(article.link)
         window.open(article.link, '_blank');
     }
     return (

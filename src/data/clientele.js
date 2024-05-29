@@ -19,14 +19,25 @@ const clients = [
         title:"Oklahoma Women's Gymnastics",
         image: process.env.PUBLIC_URL + '/clients/jordanbowers.jpg',
         brandIDs:[]
-    },    {
+    },  
+    {
         id:null,
-        name:'Brad Kraut',
-        instagram:'https://www.instagram.com/brad.kraut/',
-        tiktok:'https://www.tiktok.com/@name_is_brad',
-        youtube:'https://www.youtube.com/@bradkraut',
-        title:"Entertainment Content Creator",
-        image:process.env.PUBLIC_URL + '/clients/bradkraut.jpg',
+        name:'Annie Beard',
+        instagram:'https://www.instagram.com/anniecbeard/?hl=en',
+        tiktok:'https://www.tiktok.com/@anniecbeard?lang=en',
+        youtube:'',
+        title:"LSU Women's Gymnastics",
+        image: process.env.PUBLIC_URL + '/clients/anniebeard.jpg' ,
+        brandIDs:[]
+    }, 
+    {
+        id:null,
+        name:'Cj Kirker',
+        instagram:'https://www.instagram.com/cjkirker/?hl=en',
+        tiktok:'https://www.tiktok.com/@cjkirker?lang=en',
+        youtube:'',
+        title:"Penn State Men's Track & Field",
+        image: process.env.PUBLIC_URL + '/clients/cjkirker.jpg' ,
         brandIDs:[]
     },
     {
@@ -41,22 +52,12 @@ const clients = [
     },
     {
         id:null,
-        name:'Annie Beard',
-        instagram:'https://www.instagram.com/anniecbeard/?hl=en',
-        tiktok:'https://www.tiktok.com/@anniecbeard?lang=en',
+        name:'Jessica Leventry',
+        instagram:'https://www.instagram.com/jleventry/',
+        tiktok:'https://www.tiktok.com/@jessicaleventry?lang=en',
         youtube:'',
-        title:"LSU Women's Gymnastics",
-        image: process.env.PUBLIC_URL + '/clients/anniebeard.jpg' ,
-        brandIDs:[]
-    },
-    {
-        id:null,
-        name:'Cj Kirker',
-        instagram:'https://www.instagram.com/cjkirker/?hl=en',
-        tiktok:'https://www.tiktok.com/@cjkirker?lang=en',
-        youtube:'',
-        title:"Penn State Men's Track & Field",
-        image: process.env.PUBLIC_URL + '/clients/cjkirker.jpg' ,
+        title:"Fitness Creator",
+        image: process.env.PUBLIC_URL + '/clients/jessicaleventry.jpg' ,
         brandIDs:[]
     },
     {
@@ -71,12 +72,12 @@ const clients = [
     },
     {
         id:null,
-        name:'Jessica Leventry',
-        instagram:'https://www.instagram.com/jleventry/',
-        tiktok:'https://www.tiktok.com/@jessicaleventry?lang=en',
+        name:'Daniyal Dzhaniyev',
+        instagram:'https://www.instagram.com/dzhaniyev15/',
+        tiktok:'',
         youtube:'',
-        title:"Fitness Creator",
-        image: process.env.PUBLIC_URL + '/clients/jessicaleventry.jpg' ,
+        title:"Penn State Men's Hockey",
+        image: process.env.PUBLIC_URL + '/clients/daniyaldzhaniyev.jpg' ,
         brandIDs:[]
     },
     {
@@ -97,26 +98,6 @@ const clients = [
         youtube:'',
         title:"Penn State Women's Basketball",
         image: process.env.PUBLIC_URL + '/clients/shayciezki.jpg' ,
-        brandIDs:[]
-    },
-    {
-        id:null,
-        name:'Daniyal Dzhaniyev',
-        instagram:'https://www.instagram.com/dzhaniyev15/',
-        tiktok:'',
-        youtube:'',
-        title:"Penn State Men's Hockey",
-        image: process.env.PUBLIC_URL + '/clients/daniyaldzhaniyev.jpg' ,
-        brandIDs:[]
-    },
-    {
-        id:null,
-        name:'Destiny Sanchez',
-        instagram:'https://www.instagram.com/destinysanchezx/',
-        tiktok:'https://www.tiktok.com/@destinysanchezx?lang=en',
-        youtube:'',
-        title:"On-Air Talent",
-        image: process.env.PUBLIC_URL + '/clients/destinysanchez.jpg',
         brandIDs:[]
     },
     {
