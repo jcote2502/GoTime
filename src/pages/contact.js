@@ -51,59 +51,55 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <div style={{textAlign:'center', fontSize:'48px', margin:'25px', marginBottom:'45px'}}> Contact Us </div>
+            <div style={{textAlign:'center', fontSize:'45px', margin:'20px', marginBottom:'22px'}}> Contact Us </div>
             <form onSubmit={handleSubmit}>
-                <div style={{width:'550px'}}>
+                <div>
                     <label>
-                        Name:
+                        Name
                         <input
                             type="text"
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className='contact'
                             required
                         />
                     </label>
                 </div>
-                <div style={{width:'550px'}}>
+                <div>
                     <label>
-                        Email:
+                        Email
                         <input
                             type="email"
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className='contact'
                             required
                         />
                     </label>
                 </div>
-                <div style={{width:'225px'}}>
+                <div>
                     <label>
-                        Phone:
+                        Phone
                         <input
                             type="tel"
                             name="phone"
                             value={formData.phone}
-                            onChange={handleChange}
-                            className='contact'
+                            onChange={handleChange}               
                             required
                         />
                     </label>
                 </div>
                 <div style={{width:'100%'}}>
                     <label>
-                        Message:
+                        Message
                         <textarea
                             name="message"
                             value={formData.message}
                             onChange={handleChange}
                             maxLength="275"
-                            className='contact'
                         />
                     </label>
-                    <div>{formData.message.length} / 275 characters</div>
+                    <div style={{position:'relative', left:'10%'}}>{formData.message.length} / 275 characters</div>
                 </div>
                 <button className='contact-button' style={{width:'350px',fontSize:'25px',alignSelf:'center'}} type="submit">Send</button>
             </form>
