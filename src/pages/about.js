@@ -8,7 +8,7 @@ const About = () => {
         <>
             <div className="header-container">
                 <div className='abt-header-title'>About Us</div>
-                <div className='abt-header-sub'>Empowering Athletes, Influencers, and Media Personalities to Invest in their Personal Brand so Others can Invest too</div>
+                <div className='abt-header-sub'>Investing in Your Personal Brand so Others Can Too</div>
             </div>
             <div className='company-container'>
                 <div className='company-title'>
