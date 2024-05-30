@@ -10,14 +10,14 @@ export const pillars = [
     },
     {   
         title:'Content Strategy',
-        desc:"Crafting narratives that form online communities",
+        desc:"Crafting narratives that inspire individuals and form communities",
         link:'/services',
         icon:<FaChessPawn className='plr-icon' />
 
     },
     {
         title:'Community Development',
-        desc:"Empowering surrounding communities through selfless service",
+        desc:"Growing surrounding communities through athletics and selfless service",
         link:'/news',
         icon:<FaUsers className='plr-icon' />
 
