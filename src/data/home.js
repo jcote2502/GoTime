@@ -42,7 +42,7 @@ export const testimionials = [
         image: process.env.PUBLIC_URL + '/testimonials/anniebeard.JPEG',
         quote:`"Collaborating with my agent Juan and Go Time LLC has been instrumental in my collegiate journey, and I'm deeply thankful for their invaluable support during this pivotal and celebratory moment in my career."`,
         name:'Annie Beard',
-        title:'LSU Womens Gymnastics'
+        title:"LSU Women's Gymnastics"
     },
     {
         image: process.env.PUBLIC_URL + "/testimonials/cjkirker.jpg",
