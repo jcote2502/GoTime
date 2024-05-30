@@ -51,7 +51,7 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <div style={{textAlign:'center', fontSize:'45px', margin:'20px', marginBottom:'22px'}}> Contact Us </div>
+            <div style={{textAlign:'center', fontSize:'45px', margin:'20px', marginBottom:'22px'}}> Contact Us To Build Your Brand </div>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>
