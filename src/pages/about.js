@@ -17,20 +17,16 @@ const About = () => {
                 <div className='simple-row'>
                     <div className='desc-container'>
                         <div className='desc-text'>
-                            Go Time LLC, serves as a talent agency dedicated to empowering athletes, influencers, and media personalities to leverage their NIL(Name, Image, Likeness) potential beyond financial gains. From identifying one’s personal brand to facilitating business and marketing partnerships, we create transformational opportunities for our clientele. Ultimately, authenticity and dependability guide our daily business activities. Recognizing time as our utmost asset, let's collaborate and build a memorable brand together!
+                            Go Time LLC, serves as a talent agency dedicated to empowering athletes, influencers, and media personalities to leverage their NIL(Name, Image, Likeness) potential beyond financial gains. From identifying one's personal brand to facilitating business and marketing partnerships, we create transformational opportunities for our clientele. Ultimately, authenticity and dependability guide our daily business activities. Recognizing time as our utmost asset, let's collaborate and build a memorable brand together!
                         </div>
                         <div className='desc-text'>
-                            In just a short time period, our clients have inked deals with hundreds of brands, ranging in size from State College hallmarks such as Jerpa Jeans to nationally recognized brands like Samsung and Firehouse Subs. Our mission is to assist and collaborate with our clients with like-minded brands, equipping them with the necessary tools to maximize their performance on and off the field.
+                            In just a short time period, our clients have inked deals with hundreds of brands, ranging in size from State College hallmarks such as Jerpa Jeans to nationally recognized brands like Samsung and Firehouse Subs. Our mission is simple: equipping our clients with the necessary tools to maximize their potential in building a long lasting brand.
                         </div>
                     </div>
                     <video controls className='video-frame'>
                         <source src={process.env.PUBLIC_URL + '/gotimellc.mp4'} type="video/mp4" />
                         Your Browser Does Not Support the Video Tag
                     </video>
-                </div>
-                <div style={{backgroundColor:'white'}}>
-                    <a style={{backgroundColor:'white'}} target="_blank" rel='noreferrer' href='https://www.instagram.com/go.time.llc/'><img className='scl-logo' style={{backgroundColor:'white',height:'100px'}} src={process.env.PUBLIC_URL + '/instagram.svg'} alt='instagram' /></a>
-                    <a style={{backgroundColor:'white'}} target="_blank" rel='noreferrer' href='https://www.linkedin.com/company/go-time-llc/'><img className='scl-logo' style={{backgroundColor:'white',height:'100px'}} src={process.env.PUBLIC_URL + '/linkedin.svg'} alt='linkedin' /></a>
                 </div>
             </div>
             <div className='group'>
