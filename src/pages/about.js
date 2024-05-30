@@ -20,7 +20,7 @@ const About = () => {
                             Go Time LLC, serves as a talent agency dedicated to empowering athletes, influencers, and media personalities to leverage their NIL(Name, Image, Likeness) potential beyond financial gains. From identifying one's personal brand to facilitating business and marketing partnerships, we create transformational opportunities for our clientele. Ultimately, authenticity and dependability guide our daily business activities. Recognizing time as our utmost asset, let's collaborate and build a memorable brand together!
                         </div>
                         <div className='desc-text'>
-                            In just a short time period, our clients have inked deals with hundreds of brands, ranging in size from State College hallmarks such as Jerpa Jeans to nationally recognized brands like Samsung and Firehouse Subs. Our mission is simple: equipping our clients with the necessary tools to maximize their potential in building a long lasting brand.
+                            In just a short time period, our clients have inked deals with hundreds of brands, ranging in size from State College hallmarks such as Jerpa Jeans to nationally recognized brands like Samsung and Firehouse Subs.
                         </div>
                         <div className='desc-text'>
                            Our mission is simple: equipping our clients with the necessary tools to maximize their potential in building a long lasting brand.
