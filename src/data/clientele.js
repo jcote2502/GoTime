@@ -2,22 +2,22 @@
 const clients = [
     {
         id:null,
-        name:'Sophia Gladieux',
-        instagram:'https://www.instagram.com/phiagladieux/',
-        tiktok:'https://www.tiktok.com/@phia.gladieux?lang=en',
-        youtube:'',
-        title:'Penn State Field Hockey',
-        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.jpg',
-        brandIDs:[]
-    },
-    {
-        id:null,
         name:'Jordan Bowers',
         instagram:'https://www.instagram.com/jordansbowers/',
         tiktok:'https://www.tiktok.com/@jordansbowers',
         youtube:'',
         title:"Oklahoma Women's Gymnastics",
         image: process.env.PUBLIC_URL + '/clients/jordanbowers.jpg',
+        brandIDs:[]
+    },
+    {
+        id:null,
+        name:'Sophia Gladieux',
+        instagram:'https://www.instagram.com/phiagladieux/',
+        tiktok:'https://www.tiktok.com/@phia.gladieux?lang=en',
+        youtube:'',
+        title:'Penn State Field Hockey',
+        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.jpg',
         brandIDs:[]
     },  
     {
