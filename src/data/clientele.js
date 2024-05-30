@@ -17,7 +17,7 @@ const clients = [
         tiktok:'https://www.tiktok.com/@phia.gladieux?lang=en',
         youtube:'',
         title:'Penn State Field Hockey',
-        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.jpg',
+        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.png',
         brandIDs:[]
     },  
     {
