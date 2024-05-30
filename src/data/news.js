@@ -15,13 +15,6 @@ const news = [
     },
     {
         id:null,
-        title:"Destiny Sanchez making waves",
-        desc:"Destiny Sanchez recieves the Lisa Byington Award",
-        image:process.env.PUBLIC_URL + '/news/news13.png',
-        link:'https://gopsusports.com/news/2024/5/21/general-destiny-sanchez-lisa-byington-award.aspx',
-    },
-    {
-        id:null,
         title:"LSU Women Gymnastics Writes History",
         desc:"LSU wins first NCAA gymnastics Championship",
         image:process.env.PUBLIC_URL + '/news/news15.png',

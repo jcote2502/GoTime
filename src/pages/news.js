@@ -3,7 +3,7 @@ import { NewsHero } from "../components/frames";
 const News = () => {
     return(
         <>
-            <div className="news-head">Go Time Limelight</div>
+            <div className="news-head">Go Time In The Media</div>
             <div className="srvc-wrap">
                 {news.map((article, index)=>(
                     <div key={index}>
