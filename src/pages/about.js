@@ -22,6 +22,9 @@ const About = () => {
                         <div className='desc-text'>
                             In just a short time period, our clients have inked deals with hundreds of brands, ranging in size from State College hallmarks such as Jerpa Jeans to nationally recognized brands like Samsung and Firehouse Subs. Our mission is simple: equipping our clients with the necessary tools to maximize their potential in building a long lasting brand.
                         </div>
+                        <div className='desc-text'>
+                           Our mission is simple: equipping our clients with the necessary tools to maximize their potential in building a long lasting brand.
+                        </div>
                     </div>
                     <video controls className='video-frame'>
                         <source src={process.env.PUBLIC_URL + '/gotimellc.mp4'} type="video/mp4" />
