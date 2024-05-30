@@ -42,13 +42,13 @@ export const testimionials = [
         image: process.env.PUBLIC_URL + '/testimonials/anniebeard.JPEG',
         quote:`"Collaborating with my agent Juan and Go Time LLC has been instrumental in my collegiate journey, and I'm deeply thankful for their invaluable support during this pivotal and celebratory moment in my career."`,
         name:'Annie Beard',
-        title:'LSU Gymnast'
+        title:'LSU Womens Gymnastics'
     },
     {
         image: process.env.PUBLIC_URL + "/testimonials/cjkirker.jpg",
         quote: `"Go Time has catapulted my brand from something I do as a job to something I love. Juan and Go Time have helped me discover who I am and what I want my following to know. This in turn has lead to an increase in deals that fit my values ."`,
         name: 'CJ Kirker',
-        title: 'Penn State Track'
+        title: 'Penn State Track and Field'
     },
     {
         image: process.env.PUBLIC_URL + "/testimonials/veronicazelner.jpg",
