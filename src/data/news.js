@@ -29,7 +29,7 @@ const news = [
     },
     {
         id:null,
-        title:"Veronica is a Girl Boss",
+        title:"Veronica Zelner X Value Mag",
         desc:"Veronica sits down to provide a glimpse into her life and personality",
         image:process.env.PUBLIC_URL + '/news/news16.png',
         link:'http://www.valleymagazinepsu.com/spring-2024-cover-story-mirrored-metamorphosis/',
@@ -50,13 +50,6 @@ const news = [
     },
     {
         id:null,
-        title:"Brad Kraut X Men's Health",
-        desc:"Watch a Ripped Mark Whahlberg Work Out in a new Training Video with Brad Kraut",
-        image:process.env.PUBLIC_URL + '/news/news1.png',
-        link:'https://www.menshealth.com/fitness/a45191080/mark-wahlberg-shirtless-training-video-instagram-4am',
-    },
-    {
-        id:null,
         title:"Sophia Gladieux X Yahoo Sports",
         desc:"Sophia Gladieux invited to play with U.S. Women's National Team",
         image:process.env.PUBLIC_URL + '/news/news2.png',
@@ -68,13 +61,6 @@ const news = [
         desc:"A constant desire to elevate | Student Entrepreneur Juan Faura",
         image:process.env.PUBLIC_URL + '/news/news3.png',
         link:'https://open.spotify.com/episode/2EbPVC488ZfPlTGVDM5euh',
-    },
-    {
-        id:null,
-        title:"TDAY Sports X Centre Daily Times",
-        desc:"Meet the Penn State junior who's CEO of a social media startup looking to be Gen-Z's ESPN",
-        image: process.env.PUBLIC_URL + '/news/news4.png',
-        link:'https://www.centredaily.com/sports/college/penn-state-university/article282817498.html',
     },
     {
         id:null,
