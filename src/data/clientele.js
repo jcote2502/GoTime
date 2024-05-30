@@ -17,7 +17,7 @@ const clients = [
         tiktok:'https://www.tiktok.com/@phia.gladieux?lang=en',
         youtube:'',
         title:'Penn State Field Hockey',
-        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.png',
+        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.jpg',
         brandIDs:[]
     },  
     {
@@ -46,7 +46,7 @@ const clients = [
         instagram:'https://www.instagram.com/nikki.romano/',
         tiktok:'https://www.tiktok.com/@defnotnikkiroro?lang=en',
         youtube:'',
-        title:"Penn State Lionettes Dancer",
+        title:"Penn State Lionettes",
         image: process.env.PUBLIC_URL + '/clients/nikkiromano.jpg' ,
         brandIDs:[]
     },
@@ -86,7 +86,7 @@ const clients = [
         instagram:'https://www.instagram.com/benschoen19/',
         tiktok:'https://www.tiktok.com/@benschoen19?lang=en',
         youtube:'',
-        title:"Penn State Men's Ice Hockey",
+        title:"Penn State Men's Hockey",
         image: process.env.PUBLIC_URL + '/clients/benschoen.jpg' ,
         brandIDs:[]
     },
@@ -96,13 +96,13 @@ const clients = [
         instagram:'https://www.instagram.com/shay.ciezki/',
         tiktok:'https://www.tiktok.com/@shayciezki',
         youtube:'',
-        title:"Penn State Women's Basketball",
+        title:"Indiana Women's Basketball",
         image: process.env.PUBLIC_URL + '/clients/shayciezki.jpg' ,
         brandIDs:[]
     },
     {
         id:null,
-        name:'Llana Epstein',
+        name:'Ilana Epstein',
         instagram:'https://www.instagram.com/ilanaeepstein/',
         tiktok:'https://www.tiktok.com/@heyitsilana?lang=en',
         youtube:'',

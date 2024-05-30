@@ -22,7 +22,7 @@ export const ClientHero = (props) => {
                         <div className='clnt-scl-row'>
                             {client.tiktok ?
                                 <a style={{ backgroundColor: 'transparent' }} target="_blank" rel='noreferrer' href={client.tiktok}>
-                                    <img className='clnt-scl-logo' src={process.env.PUBLIC_URL + '/tiktok.png'} alt='tiktok' />
+                                    <img className='clnt-scl-logo' src={process.env.PUBLIC_URL + '/tiktok.svg'} alt='tiktok' />
                                 </a>
                                 : null}
                             {client.instagram ?
