@@ -72,7 +72,7 @@ const clients = [
     },
     {
         id:null,
-        name:'Daniyal Dzhaniyev',
+        name:'Danny Dzhaniyev',
         instagram:'https://www.instagram.com/dzhaniyev15/',
         tiktok:'',
         youtube:'',

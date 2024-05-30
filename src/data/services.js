@@ -3,7 +3,7 @@ export const services = [
         id: 1,
         title: "Brand Partnerships",
         desc: "Aligning with companies that share the client's values.",
-        image: process.env.PUBLIC_URL + '/services/service1.png',
+        image: process.env.PUBLIC_URL + '/services/service1.JPG',
         link: "https://www.tiktok.com/@jordansbowers/video/7328521468281769246"
     },
     {
