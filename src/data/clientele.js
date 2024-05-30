@@ -17,7 +17,7 @@ const clients = [
         tiktok:'https://www.tiktok.com/@phia.gladieux?lang=en',
         youtube:'',
         title:'Penn State Field Hockey',
-        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.jpg',
+        image: process.env.PUBLIC_URL + '/clients/sophiagladieux.JPG',
         brandIDs:[]
     },  
     {
@@ -77,7 +77,7 @@ const clients = [
         tiktok:'',
         youtube:'',
         title:"Penn State Men's Hockey",
-        image: process.env.PUBLIC_URL + '/clients/daniyaldzhaniyev.jpg' ,
+        image: process.env.PUBLIC_URL + '/clients/daniyaldzhaniyev.JPEG' ,
         brandIDs:[]
     },
     {
@@ -107,7 +107,7 @@ const clients = [
         tiktok:'https://www.tiktok.com/@heyitsilana?lang=en',
         youtube:'',
         title:"Multimedia Journalist & Content Creator",
-        image: process.env.PUBLIC_URL + '/clients/llanaepstein.jpg',
+        image: process.env.PUBLIC_URL + '/clients/llanaepstein.JPEG',
         brandIDs:[]
     },
 ]
