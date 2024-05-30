@@ -40,7 +40,7 @@ const About = () => {
                             <div className='ceo-title'>Meet Our CEO</div>
                             <div className='ceo-name'>Juan Faura</div>
                             <div className='ceo-text'>
-                                Juan, a 22-year-old student entrepreneur, has invaluable work experience from Wasserman, Limitless NIL, and Jerpa. Having served on both the talent and brand side of various activations, Juan has a great understanding of how to fulfill each party's desires. His experience, ranging from working in boutique environments to large-scale agencies, has taught him the importance of building transformational relationships across all levels. He leverages his extensive network of brands, news outlets, and teams to the strategic benefits of his clients.
+                                As a 22-year-old entrepreneur, Juan has invaluable work experience from Wasserman, Limitless NIL, and Jerpa. Having served on both the talent and brand side of various activations, he has a great understanding of how to fulfill each party's desires. From working in boutique environments to larger-scale agencies, he has understood the importance of building transformational relationships across all levels. Juan leverages his extensive network of brands, media outlets, and businesses to the strategic benefits of his clients.
                             </div>
                             <div className='ceo-text'>
                                 Juan was recently featured on the Bold Journey Newsletter. To Read More
