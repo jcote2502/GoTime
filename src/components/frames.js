@@ -32,7 +32,7 @@ export const ClientHero = (props) => {
                                 : null}
                             {client.youtube ?
                                 <a style={{ backgroundColor: 'transparent' }} target="_blank" rel='noreferrer' href={client.youtube}>
-                                    <img className='clnt-scl-logo' src={process.env.PUBLIC_URL + '/youtube.png'} alt='youtube' />
+                                    <img className='clnt-scl-logo' src={process.env.PUBLIC_URL + '/youtube.svg'} alt='youtube' />
                                 </a>
                                 : null}
                         </div>
