@@ -27,7 +27,7 @@ export const pillars = [
 export const satisfaction = [
     {title:'NIL ATHLETES',stat:'8'},
     {title:'INFLUENCERS',stat:'3'},
-    {title:'TOTAL FOLLOWERS REACH',stat:'600K+'},
+    {title:'SOCIAL AUDIENCE REACH',stat:'600K+'},
     {title:'GENERATED IN BRAND DEALS',stat:'$100K+'}
 ];
 
