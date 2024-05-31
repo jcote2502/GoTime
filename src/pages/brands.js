@@ -9,7 +9,7 @@ const Brands = () => {
                 <AutoplayCarousel data={brandsPriority} />
             </div>
             <div className="brand-carousel-S">
-                <AutoplayCarousel data={brandsLowPriority} />
+                <AutoplayCarousel data={brandsLowPriority}/>
             </div>
         </>
     )

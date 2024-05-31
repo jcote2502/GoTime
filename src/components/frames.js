@@ -84,8 +84,8 @@ export const ServiceHero = (props) => {
         <div onClick={GoTo} className='srvc-container'>
             <img className='srvc-img' src={service.image} alt='service'/>
             <div className='srvc-text-col'>
-                <div style={{fontSize:'32px'}} className='srvc-text'>{service.title}</div>
-                <div style={{fontSize:'20px', fontStyle:'normal'}} className='srvc-text'>{service.desc}</div>
+                <div className='srvc-text'>{service.title}</div>
+                <div className='srvc-desc'>{service.desc}</div>
             </div>
         </div>
     )
