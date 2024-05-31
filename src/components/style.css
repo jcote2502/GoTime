@@ -341,4 +341,17 @@
         padding:0px;
         margin: 0px;
     }
+    .pfl-container{
+        margin:10px;
+    }
+    .pfl-img{
+        width: 250px;
+    }
+    .pfl-name{
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .pfl-title{
+        font-size: 18px;
+    }
 }

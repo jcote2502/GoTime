@@ -7,7 +7,6 @@ const About = () => {
     return (
         <>
             <div className="header-container">
-                <div className='abt-header-title'>About Us</div>
                 <div className='abt-header-sub'>Investing in Your Personal Brand so Others Can Too</div>
             </div>
             <div className='company-container'>
@@ -34,6 +33,7 @@ const About = () => {
             </div>
             <div className='group'>
                 <div className='ceo-container'>
+                    <img className='ceo-img' src={process.env.PUBLIC_URL + '/company/ceoprofile.jpg'} alt='ceo' />
                     <div className='simple-row'>
                         <div className='simple-column'>
                             <div className='ceo-title'>Meet Our CEO</div>
@@ -48,15 +48,14 @@ const About = () => {
                         </div>
                     </div>
                     <div className='scl-buttons'>
-                        <a target="_blank" rel='noreferrer' href='https://www.instagram.com/jfaura10/'><img className='scl-logo' src={process.env.PUBLIC_URL + '/instagram.svg'} alt='instagram' /></a>
-                        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/juan-faura/'><img className='scl-logo' src={process.env.PUBLIC_URL + '/linkedin.svg'} alt='linkedin' /></a>
+                        <a target="_blank" rel='noreferrer' href='https://www.instagram.com/jfaura10/'><img className='scl-abt-logo' src={process.env.PUBLIC_URL + '/instagram.svg'} alt='instagram' /></a>
+                        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/juan-faura/'><img className='scl-abt-logo' src={process.env.PUBLIC_URL + '/linkedin.svg'} alt='linkedin' /></a>
                     </div>
-                    <img className='ceo-img' src={process.env.PUBLIC_URL + '/company/ceoprofile.jpg'} alt='ceo' />
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '25px' }}>
                     <hr style={{ width: '80%' }} />
                 </div>
-                <div className='ceo-title' style={{ textAlign: 'center', paddingTop: '50px' }} >Meet The Team</div>
+                <div className='team-title' >Meet The Team</div>
                 <div className='team-container'>
                     {team.map((person) => (
                         <ProfileHero person={person} />

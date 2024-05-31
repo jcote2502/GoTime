@@ -12,7 +12,7 @@ const News = () => {
                 <div onClick={GoTo} className="newsletter-overlay"/>
                 <img className="newsletter-image"  src={process.env.PUBLIC_URL + "/news/newsletter.png"} alt="newsletter"/>
                 </div>
-                <div style={{textAlign:'center',fontSize:'42px', color:'white'}}>Keep Up with our Bi-Monthly Newsletter Above</div>
+                <div style={{textAlign:'center',fontSize:'42px', color:'white'}}>June Newsletter Releases Monday. Click above to keep up.</div>
             </div>
             <div style={{backgroundColor:'white'}}>
             <div className="news-head" style={{color:'black'}}>Go Time In The Media</div>
