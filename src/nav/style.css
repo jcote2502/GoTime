@@ -11,9 +11,8 @@
     z-index: 999;
 }
 .nav-logo{
+    width: 25%;
     padding:10px;
-    position: sticky;
-    left:5vw;
 }
 .nav-container{
     position:sticky;
@@ -47,4 +46,33 @@
     border: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+}
+
+@media only screen and (max-width:480px) {
+    .nav{
+        width: 100%;
+        height: fit-content;
+        justify-content: space-around;
+    }
+    .nav-container{
+        position:static;
+        height: 100%;
+        margin: 10px 0px 10px 0px
+    }
+    .nav-logo{
+        width: 65px;
+        object-fit: contain;
+    }
+    .button-row{
+        width:100%;
+        margin:0px;
+        height: auto;
+    }
+    .nav-item{
+        font-size: 12px;
+        padding:5px;
+    }
+    .nav-item-active{
+        font-size: 14px;
+    }
 }
