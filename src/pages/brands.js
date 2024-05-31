@@ -4,11 +4,11 @@ import { brandsLowPriority, brandsPriority } from "../data/brands";
 const Brands = () => {
     return (
         <>
-            <div style={{textAlign:'center',color:'white',fontSize:'62px',padding:'50px 100px 0px 100px'}}>We Work With Brands On The Local And National Spectrum</div>
-            <div style={{ margin:'100px', borderLeft:'2px solid white', borderRight:'2px solid white', height: '400px' }}>
+            <div className="brand-title">We Work With Brands On The Local And National Spectrum</div>
+            <div className="brand-carousel-L">
                 <AutoplayCarousel data={brandsPriority} />
             </div>
-            <div style={{ margin:'100px', borderLeft:'2px solid white', borderRight:'2px solid white', height: '250px'}}>
+            <div className="brand-carousel-S">
                 <AutoplayCarousel data={brandsLowPriority} />
             </div>
         </>

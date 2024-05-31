@@ -15,7 +15,6 @@ export const MyCarousel = (props) => {
         autoplaySpeed: autoplaySpeed,
         cssEase: 'linear',
     }
-
     return (
         <div className='slide-container'>
             <Slider {...settings}>
@@ -35,7 +34,6 @@ export const AutoplayCarousel = (props) => {
     return (
         <div className="carousel-container">
             <CarouselTrack carouselwidth={carouselWidth} scrollvalue={scrollValue}>
-            {/* <div className="carousel-track" style={{width:{carouselWidth}}}> */}
                 {data.map((item) => {
                     return (
                         <CarouselItem

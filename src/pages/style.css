@@ -17,6 +17,26 @@
     margin-bottom: 25px;
 }
 
+.brand-carousel-L{
+    margin:100px;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    height:400px;
+}
+.brand-carousel-S{
+    margin:100px;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    height: 250px;
+}
+
+.brand-title{
+    text-align:center;
+    color:white;
+    font-size:62px;
+    padding:50px 100px 0px 100px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -30,12 +50,10 @@
 
 .intro-container:hover .overlay {
     display: block;
-    /* Show overlay on hover */
 }
 
 .intro-container:hover .click-text {
     display: block;
-    /* Show overlay on hover */
 }
 
 .click-text {
@@ -598,5 +616,16 @@ textarea {
     .client-title{
         font-size: 32px;
     }
-
+    .brand-title{
+        font-size: 28px;
+        padding:10px 5px 0px 5px
+    }
+    .brand-carousel-L{
+        height: 300px;
+        margin:25px
+    }
+    .brand-carousel-S{
+        height: 250px;
+        margin: 25px;
+    }
 }
