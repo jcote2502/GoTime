@@ -82,6 +82,16 @@ const clients = [
     },
     {
         id:null,
+        name:'Ilana Epstein',
+        instagram:'https://www.instagram.com/ilanaeepstein/',
+        tiktok:'https://www.tiktok.com/@heyitsilana?lang=en',
+        youtube:'',
+        title:"Multimedia Journalist & Content Creator",
+        image: process.env.PUBLIC_URL + '/clients/llanaepstein.JPEG',
+        brandIDs:[]
+    },
+    {
+        id:null,
         name:'Ben Schoen',
         instagram:'https://www.instagram.com/benschoen19/',
         tiktok:'https://www.tiktok.com/@benschoen19?lang=en',
@@ -98,16 +108,6 @@ const clients = [
         youtube:'',
         title:"Indiana Women's Basketball",
         image: process.env.PUBLIC_URL + '/clients/shayciezki.jpg' ,
-        brandIDs:[]
-    },
-    {
-        id:null,
-        name:'Ilana Epstein',
-        instagram:'https://www.instagram.com/ilanaeepstein/',
-        tiktok:'https://www.tiktok.com/@heyitsilana?lang=en',
-        youtube:'',
-        title:"Multimedia Journalist & Content Creator",
-        image: process.env.PUBLIC_URL + '/clients/llanaepstein.JPEG',
         brandIDs:[]
     },
 ]

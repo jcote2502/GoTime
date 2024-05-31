@@ -1,29 +1,29 @@
 const news = [
     {
         id:null,
-        title:"Jordan Bowers - Honda Sports Finalist",
+        title:"Jordan Bowers X Honda Sports Finalist",
         desc:"Jordan Bowers was named one of the four finalists for the 2024 Honda Sports Award",
         image:process.env.PUBLIC_URL + '/news/news11.png',
         link:'https://www.oudaily.com/sports/ou-womens-gymnastics-2024-honda-sports-award-for-gymnastics-jordan-bowers-finalist/article_fa5134fe-01b1-11ef-9a2b-873e05ef7f95.html',
     },
     {
         id:null,
-        title:"Lionettes Place Third",
-        desc:"Nikki Romano and the Lionettes win bronze",
+        title:"Lionettes Make History",
+        desc:"Nikki Romano and the Lionettes place third at UDA Nationals",
         image:process.env.PUBLIC_URL + '/news/news12.png',
         link:'https://onwardstate.com/2024/01/17/penn-state-lionettes-place-third-at-national-competition/',
     },
     {
         id:null,
         title:"LSU Women Gymnastics Writes History",
-        desc:"LSU wins first NCAA gymnastics Championship",
+        desc:"Annie Beard and the LSU Tigers win first every NCAA gynmastics championship",
         image:process.env.PUBLIC_URL + '/news/news15.png',
-        link:'https://justwomenssports.com/reads/lsu-wins-first-ncaa-gymnastics-champtionship/',
+        link:'https://justwomenssports.com/reads/lsu-wins-first-ncaa-gymnastics-champtionship/', // need photo
     },
     {
         id:null,
-        title:"Veronica Zelner X Value Mag",
-        desc:"Veronica sits down to provide a glimpse into her life and personality",
+        title:"Veronica Zelner X Valley Mag",
+        desc:"Veronica provides a glimpse into her life and personality",
         image:process.env.PUBLIC_URL + '/news/news16.png',
         link:'http://www.valleymagazinepsu.com/spring-2024-cover-story-mirrored-metamorphosis/',
     },
@@ -36,8 +36,8 @@ const news = [
     },
     {
         id:null,
-        title:"PSU Content Creator",
-        desc:"Happy Valley LaunchBox hosts Digital Testlab for Conent Creators",
+        title:"CJ Kirker X Digital Test Lab",
+        desc:"Happy Valley LaunchBox hosts Digital Testlab for Content Creators",
         image:process.env.PUBLIC_URL + '/news/news14.png',
         link:'https://www.psu.edu/news/invent-penn-state/story/six-entrepreneurs-participate-first-content-creator-accelerator/',
     },
