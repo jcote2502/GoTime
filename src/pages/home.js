@@ -28,8 +28,6 @@ const Home = () => {
                             {pillar.icon}
                             <div className='plr-descr'>{pillar.desc}</div>
                             <button className='plr-button' onClick={() => nav(pillar.link)}>Learn More</button>
-
-                            {/* <div className='plrs-overlay' /> */}
                         </div>
                     )
                 })}
@@ -50,14 +48,6 @@ const Home = () => {
                 </div>
                 <div className='stsf-header'>Testimonials</div>
                 <MyCarousel data={testimionials} speed={700} autoplaySpeed={8000} type='testimonial' />
-            </div>
-            {/* News */}
-            <div>
-
-            </div>
-            {/* Contact */}
-            <div>
-
             </div>
         </>
     )

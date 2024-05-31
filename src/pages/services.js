@@ -4,7 +4,7 @@ import { ServiceHero } from '../components/frames';
 const Services = () => {
     return (
         <>
-            <div className='srvc-wrap'>
+            <div className='srvc-wrap' style={{backgroundColor:'black'}}>
                 {services.map((service, index)=>(
                     <div key={index}>
                         <ServiceHero service={service}/>

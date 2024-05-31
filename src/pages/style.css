@@ -69,7 +69,6 @@
 }
 
 .plrs-rect {
-    height: 100%;
     height: 475px;
     width: 375px;
     background-color: white;
@@ -471,4 +470,48 @@ textarea {
 .newsletter-container:hover .newsletter-overlay{
     display:flex;
     opacity: 1;
+}
+
+@media only screen and (max-width:480px) {
+    .plrs-container{
+        min-height: 220px;
+    }
+    .plrs-rect{
+        width: 35%;
+        height: auto;
+        justify-content: space-around;
+        margin:0px;
+        padding: 0px;
+    }
+    .plr-title{
+        font-size: 22px;
+    }
+    .plr-descr{
+        font-size: 12px;
+    }
+    .plr-icon{
+        width: 45px;
+        height: 45px;
+    }
+    .plr-button{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .stsf-row{
+        flex-direction: column;
+    }
+    .stsf-col{
+        flex-direction: row;
+    }
+    .stsf-header{
+        font-size: 30px;
+    }
+    .stsf-stat{
+        font-size: 32px;
+        margin-right: 15px;
+    }
+    .stsf-title{
+        font-size: 14px;
+    }
 }
