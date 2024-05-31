@@ -5,7 +5,7 @@ const Footer = () => {
             {/* row */}
             {/* <div className='footer-row'> */}
             <img className='ftr-logo' src={process.env.PUBLIC_URL + '/logotran.png'} alt="logo" />
-            <a className='ftr-text' href={`mailto:${'juan@gotimeagency.org'}`}>juan@gotimeagency.org</a>
+            <a className='ftr-text' target='_blank' rel='noreferrer' href={`mailto:${'juan@gotimeagency.org'}`}>juan@gotimeagency.org</a>
             <div className='ftr-ct-row'>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/go.time.llc/'><img className='scl-logo' src={process.env.PUBLIC_URL + '/instagram.svg'} alt='instagram' /></a>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/company/go-time-llc/'><img className='scl-logo' src={process.env.PUBLIC_URL + '/linkedin.svg'} alt='linkedin' /></a>

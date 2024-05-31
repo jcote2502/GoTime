@@ -8,8 +8,7 @@ const Home = () => {
     return (
         <>
             <div className='intro-container'>
-                <div className='overlay' onClick={() => { navigate('/video') }}>
-                </div>
+                <div className='overlay' onClick={() => { navigate('/video') }}></div>
                 <img onClick={() => { navigate('/video') }} className='home-cv-image' src={process.env.PUBLIC_URL + '/coverPhoto.JPEG'} alt="logo" />
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', marginBottom: '40px' }}>

@@ -6,7 +6,7 @@ const clients = [
         instagram:'https://www.instagram.com/jordansbowers/',
         tiktok:'https://www.tiktok.com/@jordansbowers',
         youtube:'',
-        title:"Oklahoma Women's Gymnastics",
+        title:"Oklahoma Gymnastics",
         image: process.env.PUBLIC_URL + '/clients/jordanbowers.jpg',
         brandIDs:[]
     },
@@ -26,7 +26,7 @@ const clients = [
         instagram:'https://www.instagram.com/anniecbeard/?hl=en',
         tiktok:'https://www.tiktok.com/@anniecbeard?lang=en',
         youtube:'',
-        title:"LSU Women's Gymnastics",
+        title:"LSU Gymnastics",
         image: process.env.PUBLIC_URL + '/clients/anniebeard.jpg' ,
         brandIDs:[]
     }, 
@@ -36,7 +36,7 @@ const clients = [
         instagram:'https://www.instagram.com/cjkirker/?hl=en',
         tiktok:'https://www.tiktok.com/@cjkirker?lang=en',
         youtube:'',
-        title:"Penn State Men's Track & Field",
+        title:"Penn State Track & Field",
         image: process.env.PUBLIC_URL + '/clients/cjkirker.jpg' ,
         brandIDs:[]
     },
@@ -76,7 +76,7 @@ const clients = [
         instagram:'https://www.instagram.com/dzhaniyev15/',
         tiktok:'',
         youtube:'',
-        title:"Penn State Men's Hockey",
+        title:"Penn State Hockey",
         image: process.env.PUBLIC_URL + '/clients/daniyaldzhaniyev.JPEG' ,
         brandIDs:[]
     },
@@ -86,7 +86,7 @@ const clients = [
         instagram:'https://www.instagram.com/ilanaeepstein/',
         tiktok:'https://www.tiktok.com/@heyitsilana?lang=en',
         youtube:'',
-        title:"Multimedia Journalist & Content Creator",
+        title:"Journalist & Content Creator",
         image: process.env.PUBLIC_URL + '/clients/llanaepstein.JPEG',
         brandIDs:[]
     },
@@ -96,7 +96,7 @@ const clients = [
         instagram:'https://www.instagram.com/benschoen19/',
         tiktok:'https://www.tiktok.com/@benschoen19?lang=en',
         youtube:'',
-        title:"Penn State Men's Hockey",
+        title:"Penn State Hockey",
         image: process.env.PUBLIC_URL + '/clients/benschoen.jpg' ,
         brandIDs:[]
     },
@@ -106,7 +106,7 @@ const clients = [
         instagram:'https://www.instagram.com/shay.ciezki/',
         tiktok:'https://www.tiktok.com/@shayciezki',
         youtube:'',
-        title:"Indiana Women's Basketball",
+        title:"Indiana Basketball",
         image: process.env.PUBLIC_URL + '/clients/shayciezki.jpg' ,
         brandIDs:[]
     },
