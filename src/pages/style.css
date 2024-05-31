@@ -473,6 +473,13 @@ textarea {
     opacity: 1;
 }
 
+.client-title{
+    color:white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 25px;
+}
+
 @media only screen and (max-width:480px) {
     .plrs-container{
         min-height: 220px;
@@ -584,6 +591,12 @@ textarea {
     .team-title{
         font-size: 38px;
         padding:0px;
+    }
+    .clnt-wrap{
+        margin:10px;
+    }
+    .client-title{
+        font-size: 32px;
     }
 
 }

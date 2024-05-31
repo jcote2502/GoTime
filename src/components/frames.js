@@ -42,7 +42,7 @@ export const ClientHero = (props) => {
                     <div className="clnt-header">{client.name}</div>
                     <div className="clnt-subtext">{client.title}</div>
                 </div>
-                <hr style={{ alignSelf: 'center', marginTop: '20px', color: 'white', width: '50%' }} />
+                <hr className='hr-break' />
             </div>
             <div className="clnt-overlay">
 
