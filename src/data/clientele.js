@@ -107,7 +107,7 @@ const clients = [
         tiktok:'https://www.tiktok.com/@shayciezki',
         youtube:'',
         title:"Indiana Basketball",
-        image: process.env.PUBLIC_URL + '/clients/shayciezki.jpg' ,
+        image: process.env.PUBLIC_URL + '/clients/shayciezki.JPEG' ,
         brandIDs:[]
     },
 ]

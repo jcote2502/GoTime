@@ -99,7 +99,7 @@ const Contact = () => {
                             maxLength="275"
                         />
                     </label>
-                    <div style={{position:'relative', left:'10%'}}>{formData.message.length} / 275 characters</div>
+                    <div className='message-count'>{formData.message.length} / 275 characters</div>
                 </div>
                 <button className='contact-button' style={{width:'350px',fontSize:'25px',alignSelf:'center'}} type="submit">Send</button>
             </form>

@@ -459,6 +459,11 @@ textarea {
     cursor: pointer;
 }
 
+.message-count{
+    position: relative;
+    left: 10%;
+}
+
 .contact-button:hover {
     background-color: #45a049;
 }
@@ -647,4 +652,20 @@ textarea {
         padding-top: 25px;
         font-size: 34px;
     }
+    label{
+        font-size: 22px;
+    }
+    input{
+        height: fit-content;
+        width: 200px;
+        font-size: 15px;
+    }
+    textarea{
+        width: 300px;
+        font-size: 15px;
+    }
+    .message-count{
+        font-size: 15px;
+    }
+    
 }
