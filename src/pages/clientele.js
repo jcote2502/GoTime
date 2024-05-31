@@ -5,7 +5,6 @@ const Clientele = () => {
     
     return(
         <>
-            <div className="client-title">GoTime Icons</div>
             <div className="clnt-wrap">
                 {clients.map((client)=>(
                     <ClientHero client={client}/>
