@@ -105,7 +105,7 @@ export const NewsHero = (props) =>{
             
             <div className='news-caption'>
                 {article.title}
-                <div style={{backgroundColor:'transparent',fontSize:'20px'}}>{article.desc}</div>
+                <div className='news-desc'>{article.desc}</div>
             </div>
         </div>
     )
