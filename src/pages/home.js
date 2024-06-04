@@ -2,13 +2,26 @@ import './style.css'
 import { useNavigate } from 'react-router-dom';
 import { pillars, satisfaction, testimionials } from '../data/home';
 import { MyCarousel } from '../components/carousel'
+import { useState } from 'react';
 const Home = () => {
     const navigate = useNavigate();
+
+    const [opacity, setOpacity] = useState({opacity:'0',transition:'opacity .5s ease'})
+
+    window.addEventListener('scroll', function () {
+        var scrollTop = window.scrollY;
+        const triggerHeight = 250;
+        if (scrollTop > triggerHeight){
+            setOpacity({opacity:'1',transition:'opacity 1s ease'})
+        }else{
+            setOpacity({opacity:'0',transition:'opacity 1s ease'})
+        }
+    })
 
     return (
         <>
             <div className='intro-container'>
-                <div className='overlay' onClick={() => { navigate('/video') }}></div>
+                <div style={opacity} className='overlay' onClick={() => { navigate('/video') }}></div>
                 <img onClick={() => { navigate('/video') }} className='home-cv-image' src={process.env.PUBLIC_URL + '/coverPhoto.JPEG'} alt="logo" />
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', marginBottom: '40px' }}>
