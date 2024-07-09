@@ -2,6 +2,16 @@
 const clients = [
     {
         id:null,
+        name:'Dakota Rivers',
+        instagram:'https://www.instagram.com/dakota.rivers/?igsh=Y3ZhbHU0b2x5Z2Vr',
+        tiktok:'https://www.tiktok.com/@dakotarivers',
+        youtube:'https://www.youtube.com/@dakotarivers',
+        title:"Basketball Content Creator",
+        image: process.env.PUBLIC_URL + '/clients/dakotarivers.jpeg',
+        brandIDs:[]
+    },
+    {
+        id:null,
         name:'Jordan Bowers',
         instagram:'https://www.instagram.com/jordansbowers/',
         tiktok:'https://www.tiktok.com/@jordansbowers',
@@ -29,7 +39,27 @@ const clients = [
         title:"LSU Gymnastics",
         image: process.env.PUBLIC_URL + '/clients/anniebeard.jpg' ,
         brandIDs:[]
-    }, 
+    },
+    {
+        id:null,
+        name:'Alanys Viera',
+        instagram:'https://www.instagram.com/alanysvieraa/',
+        tiktok:'',
+        youtube:'',
+        title:"Umiami Women's Volleyball",
+        image: process.env.PUBLIC_URL + '/clients/alanysviera.jpeg',
+        brandIDs:[]
+    },
+    {
+        id:null,
+        name:'Sophia Mancino',
+        instagram:'https://www.instagram.com/sofiamancino_/?igsh=MTR1MG41czl4dzc4eg%3D%3D',
+        tiktok:'https://www.tiktok.com/@soffmancino?_t=8nrzLLDkJQI&_r=1',
+        youtube:'',
+        title:"Richmond Women's Soccer",
+        image: process.env.PUBLIC_URL + '/clients/sofiamancino.jpeg',
+        brandIDs:[]
+    },
     {
         id:null,
         name:'Cj Kirker',
